@@ -1,0 +1,23 @@
+{
+    "name": "pasls/omnipay-esewa",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Pasls\\OmnipayEsewa\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rajesh",
+            "email": "broncha@vantagebit.com"
+        }
+    ],
+    "require": {
+        "omnipay/common": "^3.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": false
+        }
+    }
+}
